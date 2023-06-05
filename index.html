@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Chunsik Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>CS Telecom</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>10:10</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to 춘식 Talk</h1>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="이메일, 전화번호" />
+      <input name="password" type="password" placeholder="비밀번호" />
+      <!--
+      <div class="stay-logged-In">
+        <div class="stay-logged-In__check"></div>
+        <div>로그인 상태 유지</div>
+        <div>
+          <i class="fas fa-info-circle"></i>
+        </div>
+      </div>-->
+      <input type="submit" value="Log In" />
+    </form>
+
+    <div class="accounts">
+      <div class="accounts__join">
+        <a href="#"><span>회원가입</span></a>
+      </div>
+      <div class="accounts__find">
+        <a href="#"><span class="accounts__id">계정 찾기</span></a>
+        <span class="accounts__bar"> | </span>
+        <a href="#"><span class="accounts__pwd"> 비밀번호 찾기</span></a>
+      </div>
+    </div>
+
+    <div id="no-mobile"></div>
+    <div id="no-mobile-text">
+      <span>스크린이 너무 큽니다🥲</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

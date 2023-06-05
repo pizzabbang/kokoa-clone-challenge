@@ -1,0 +1,36 @@
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+.freinds-screen__column {
+  margin-top: 25px;
+  border-top: var(--main-border);
+  padding-top: 15px;
+}
+.freinds-screen__header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--grey);
+}
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 122px;
+  animation: hideSplashScreen 0.4s ease-in-out forwards;
+  animation-delay: 2s;
+}

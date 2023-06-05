@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>채팅 - 춘식Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>CS Telecom</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>10:10</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">채팅</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
+        <span>
+          <a href="settings.html">
+            <i class="fas fa-cog fa-lg"
+              ><span class="screen-header__dot"></span
+            ></i>
+          </a>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <a href="chat_with_ryan.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="라이언.jpg"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">라이언</h4>
+              <h6 class="user-component__subtitle">고마워 춘식아😍</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">오전 10:01</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+      <a href="chat_with_con.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="콘.jpg"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">콘</h4>
+              <h6 class="user-component__subtitle">사진을 보냈습니다.</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">오전 09:22</span>
+          </div>
+        </div>
+      </a>
+      <a href="chat_with_tube.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="튜브.jpg"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">튜브</h4>
+              <h6 class="user-component__subtitle">그럼 내일 봐</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">6월 4일</span>
+          </div>
+        </div>
+      </a>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="fas fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="open_chat.html"
+            ><i class="far fa-comments fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+            <span class="nav__dot"></span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile"></div>
+    <div id="no-mobile-text">
+      <span>스크린이 너무 큽니다🥲</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

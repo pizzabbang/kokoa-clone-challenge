@@ -1,0 +1,73 @@
+.user-component {
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  margin-right: 15px;
+}
+.user-component__title {
+  font-weight: 600;
+  font-size: 19px;
+}
+.user-component__subtitle {
+  margin-top: 8px;
+  font-size: 15px;
+  color: grey;
+}
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+}
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.user-component__column:last-child div {
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.user-component__status-message {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.user-component__present {
+  border: 1px solid palevioletred;
+}
+.user-component__present a span:last-child {
+  color: palevioletred;
+}
+.user-component__music {
+  border: 1px solid green;
+}
+
+.user-component__time {
+  display: block;
+  margin-bottom: 10px;
+}
+.user-component__text {
+  position: relative;
+}
+.user-component__text i {
+  color: tomato;
+  opacity: 0.8;
+  position: absolute;
+  bottom: 0px;
+  right: -20px;
+}
